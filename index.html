@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Zheng Wei</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-container">
+      <div class="avatar-area">
+        <img class="avatar" src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/50603/man-technologist-emoji-clipart-xl.png">
+        <p class="name">Zheng Wei</p>
+        <p class="description">A clever, handsome boy.</p>
+      </div>
+
+      <div class="info-list"> 
+        <p class="list-title">Hobbies:</p>
+        <ul class="list-item">
+          <li>Math</li>
+          <li>Game dev</li>
+          <li> Web dev</li>
+        </ul>
+      </div>
+
+      <div class="info-list">
+        <p class="list-title">Skills:</p>
+        <ul class="list-item">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML & CSS</li>
+        </ul>
+      </div>
+      
+      <div class="info-list">
+        <p class="list-title">Links:</p>
+        <p class="list-item">
+          <a target="_blank" href="https://github.com/zhengisnothere">
+            <img class="list-image" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" >
+          </a>
+        </p>
+        <p class="list-item">
+          <a target="_blank" href="https://replit.com/@ZhengIsHere">
+            <img class="list-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png">
+          </a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="right-container">
+      <div class="date-area">
+        <p class="date-text" id="date">NaN</p>
+      </div>
+  
+      <div class="center-text-block">
+        <p class="clock-text" id="hour1">_</p>
+        <p class="clock-text" id="hour2">_</p>
+        <p class="clock-text">:</p>
+        <p class="clock-text" id="minute1">_</p>
+        <p class="clock-text" id="minute2">_</p>
+        <p class="clock-text">:</p>
+        <p class="clock-text" id="second1">_</p>
+        <p class="clock-text" id="second2">_</p>
+      </div>
+
+      <div onclick="change_quote_text()" id="quote-block">
+        <p class="double-quote-left">"</p>
+        <p class="quote-text" id="quote-text"> </p>
+        <p class="double-quote-right">"</p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <img class="wallpaper" id="wallpaper" src="https://www.hdwallpapers.in/download/sunset_minimal_landscape_4k-HD.jpg">
+  
+  <script src="clock.js"></script>
+  <script src="quote.js"></script>
+</body>
+
+</html>
